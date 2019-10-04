@@ -167,6 +167,10 @@ header nav a{
     padding: 10px 20px 0px;
 }
 
+header .jumbo-img{
+    width: 100%;
+}
+
 header{
     margin-bottom: 20px;
 }
@@ -279,3 +283,25 @@ header{
     animation-name:hover-animation-box;
     animation-duration:2s;
 } 
+
+.contact-page .top-content .text-container {
+    width: 98%;
+}
+
+input, textarea{
+    padding: 10px 10px;
+    margin: 10px 2% 20px 2%;
+    width: 96%;
+}
+
+textarea{
+    height: 200px;
+}
+
+input[type=submit]{
+    background-color: #56bd5b;
+    font-size: 20px;
+    color: white;
+    width: 180px;
+    border-radius: 8px;
+}
