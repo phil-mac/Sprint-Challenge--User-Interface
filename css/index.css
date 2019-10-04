@@ -145,7 +145,7 @@ footer nav a {
     text-decoration: none;
 }
 
-/* phils code */
+/* home page additions */
 
 header .logo-and-nav{
     display: flex;
@@ -208,3 +208,44 @@ header{
 .middle-content .boxes .box.box10{
     background: dodgerblue;
 } 
+
+/* about page additions */
+
+.about-page .top-content .text-container {
+    width: 98%;
+    /* padding: 0 1%; */
+    /* padding-bottom: 20px;   */
+}
+
+.about-page .middle-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border-bottom: none;
+}
+
+.about-page .middle-content .about-item-container{
+    width: 48%;
+    border-bottom: 1px dashed black;
+    /* padding-bottom: 20px; */
+    margin: 10px 0 10px 0;
+}
+
+.about-page .middle-content .about-item-container h2{
+    padding: 10px 0;
+    /* margin-bottom: 0; */
+}
+
+.about-page .middle-content .about-item-container button{
+    margin: 15px 0;
+    padding: 8px 16px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 15px;
+    /* margin-bottom: 0; */
+}
+
+.about-page .bottom-content{
+    display: block;
+    margin: 20px 2% 40px;
+}
