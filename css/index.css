@@ -250,3 +250,32 @@ header{
     display: block;
     margin: -20px 2% 40px;
 }
+
+/* stretch goal work */
+
+@keyframes hover-animation-box{
+    0%{
+        background: red;
+    }
+    20%{
+        background: orange;
+    }
+    40%{
+        background: yellow;
+    }
+    60%{
+        background: green;
+    }
+    80%{
+        background: blue;
+    }
+    100%{
+        background: violet;
+        -webkit-transform: rotate(360deg); transform:rotate(360deg);
+    }
+  }
+
+.middle-content .boxes .box:hover{
+    animation-name:hover-animation-box;
+    animation-duration:2s;
+} 
