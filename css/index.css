@@ -305,3 +305,49 @@ input[type=submit]{
     width: 180px;
     border-radius: 8px;
 }
+
+@media only screen and (max-width: 800px){
+    header .logo-and-nav{
+        flex-wrap: wrap;
+    }
+    
+    header nav{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    
+    header nav a{
+        width: 90%;
+    }
+
+    header .jumbo-img{
+        width: 100%;
+    }
+
+    .container {
+        width: 90%;
+        margin: 0 auto;
+    }
+    
+    .middle-content .boxes .box {
+        width: 100px;
+        height: 100px;
+    }
+
+    .top-content .text-container {
+        width: 98%;
+    }
+
+    .bottom-content{
+        flex-wrap: wrap;
+    }
+
+    .bottom-content .text-container {
+        width: 98%;
+        margin: 10px 0;
+    }
+
+    .about-page .middle-content .about-item-container{
+        width: 96%;
+    }
+}
