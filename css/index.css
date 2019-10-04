@@ -144,3 +144,67 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* phils code */
+
+header .logo-and-nav{
+    display: flex;
+    align-items: baseline;
+    margin: 20px 0 40px 0;
+}
+
+header nav{
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+}
+
+header nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+
+header{
+    margin-bottom: 20px;
+}
+
+.middle-content .boxes .box.box1{
+    background: teal;
+} 
+
+.middle-content .boxes .box.box2{
+    background: gold;
+} 
+
+.middle-content .boxes .box.box3{
+    background: cadetblue;
+} 
+
+.middle-content .boxes .box.box4{
+    background: coral;
+} 
+
+.middle-content .boxes .box.box5{
+    background: crimson;
+} 
+
+.middle-content .boxes .box.box6{
+    background: forestgreen;
+} 
+
+.middle-content .boxes .box.box7{
+    background: darkorchid;
+} 
+
+.middle-content .boxes .box.box8{
+    background: hotpink;
+} 
+
+.middle-content .boxes .box.box9{
+    background: indigo;
+} 
+
+.middle-content .boxes .box.box10{
+    background: dodgerblue;
+} 
